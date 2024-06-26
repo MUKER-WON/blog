@@ -47,6 +47,7 @@ const ContactCard: React.FC = () => {
             <div className="name">email</div>
           </a>
         )}
+        /*
         {CONFIG.profile.linkedin && (
           <a
             href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
@@ -57,6 +58,7 @@ const ContactCard: React.FC = () => {
             <div className="name">linkedin</div>
           </a>
         )}
+        */
       </StyledWrapper>
     </>
   )
