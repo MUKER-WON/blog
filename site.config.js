@@ -11,6 +11,12 @@ const CONFIG = {
     instagram: "muker_def",
   },
   // blog setting (required)
+  projects: [
+    {
+      name: `버스어디`,
+      href: "https://github.com/Pepsi-Club/WhereMyBus-iOS",
+    },
+  ],
   blog: {
     title: "Muker's Staks",
     description: "welcome!!",
