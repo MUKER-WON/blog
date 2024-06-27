@@ -34,7 +34,7 @@ const StyledWrapper = styled.div`
     margin-bottom: 0.0rem;
   }
   > .content {
-    margin-bottom: 2.25rem;
+    margin-bottom: 0.5rem;
     border-radius: 1rem;
     width: 100%;
     background-color: ${({ theme }) =>
