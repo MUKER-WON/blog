@@ -12,4 +12,9 @@ const Logo = () => {
 
 export default Logo
 
-const StyledWrapper = styled(Link)``
+const StyledWrapper = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Merriweather, Arial, sans-serif';
+  font-size: 24px;
+`
