@@ -10,10 +10,6 @@ const CONFIG = {
     github: "MUKER-WON",
     instagram: "muker_def",
   },
-  projects: [
-    {
-    },
-  ],
   // blog setting (required)
   blog: {
     title: "Muker's Staks",
