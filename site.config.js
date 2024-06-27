@@ -11,6 +11,8 @@ const CONFIG = {
     instagram: "muker_def",
   },
   projects: [
+    {
+    },
   ],
   // blog setting (required)
   blog: {
