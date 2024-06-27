@@ -33,6 +33,7 @@ const StyledWrapper = styled.div`
 
   .container {
     display: flex;
+    padding-top: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     justify-content: space-between;
