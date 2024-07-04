@@ -19,7 +19,7 @@ const CONFIG = {
   ],
   blog: {
     title: "Muker's Staks",
-    description: "welcome!!",
+    description: "Muker Dev log",
     scheme: "system", // 'light' | 'dark' | 'system'
   },
 
