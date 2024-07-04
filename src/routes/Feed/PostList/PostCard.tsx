@@ -95,7 +95,7 @@ const StyledWrapper = styled(Link)`
       padding-bottom: 66%;
 
       @media (min-width: 1024px) {
-        padding-bottom: 70%;
+        padding-bottom: 60%;
       }
     }
     > .content {
