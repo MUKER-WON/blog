@@ -32,7 +32,7 @@ const StyledWrapper = styled.div`
   z-index: ${zIndexes.header};
   position: sticky;
   top: 0;
-  backdrop-filter: blur(40px);
+  backdrop-filter: blur(50px);
 `
 
 const HeaderWrapper = styled.div`
@@ -47,7 +47,7 @@ const HeaderWrapper = styled.div`
     align-items: center;
     width: 100%;
     max-width: 1120px;
-    height: 3rem;
+    height: 2rem;
     margin: 0 auto;
     &[data-full-width="true"] {
       @media (min-width: 768px) {
