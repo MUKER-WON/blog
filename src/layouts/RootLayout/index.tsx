@@ -53,11 +53,11 @@ const RootLayout = ({ children }: Props) => {
   const [blogHeight, setBlogHeight] = useState(0)
   const [throttleScrollY, setThrottleScrollY] = useState<number>(0)
   const [scheme] = useScheme()
-  console.log(throttleScrollY)
+
   useGtagEffect()
   const scrollThrottle = useThrottle(() => {
     setThrottleScrollY(window.scrollY)
-  }, 100);
+  }, 100)
 
   const getCurrentPercentage = () => {
     if (router.asPath === "/") return 0
@@ -79,7 +79,7 @@ const RootLayout = ({ children }: Props) => {
 
     window.addEventListener("scroll", scrollThrottle)
     return () => window.removeEventListener("scroll", scrollThrottle)
-  }, [throttleScrollY]);
+  }, [throttleScrollY])
 
   return (
     <ThemeProvider scheme={scheme}>
