@@ -81,6 +81,11 @@ const RootLayout = ({ children }: Props) => {
     return () => window.removeEventListener("scroll", scrollThrottle)
   }, [throttleScrollY])
 
+  useEffect(() => {
+    Prism.highlightAll()
+  }, [])
+
+
   return (
     <ThemeProvider scheme={scheme}>
       <Scripts />
