@@ -16,5 +16,6 @@ const StyledWrapper = styled(Link)`
   text-decoration: none;
   color: inherit;
   font-family: 'Merriweather, Arial, sans-serif';
-  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: bold;
 `
