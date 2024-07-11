@@ -92,10 +92,10 @@ const StyledWrapper = styled(Link)`
       position: relative;
       width: 100%;
       background-color: ${({ theme }) => theme.colors.gray2};
-      padding-bottom: 70%;
+      padding-bottom: 66%;
 
       @media (min-width: 1024px) {
-        padding-bottom: 60%;
+        padding-bottom: 65%;
       }
     }
     > .content {
