@@ -122,7 +122,7 @@ const StyledWrapper = styled.div`
       padding-bottom: 66%;
 
       @media (min-width: 1024px) {
-        padding-bottom: 65%;
+        padding-bottom: 80%;
       }
     }
   }
